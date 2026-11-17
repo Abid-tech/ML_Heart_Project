@@ -55,7 +55,7 @@ function App() {
       setResult(data);
     } catch (err) {
       setError(
-        `${err.message}. Make sure the FastAPI backend is running at http://127.0.0.1:8000.`
+        `${err.message}. Please check the backend connection and try again.`
       );
     } finally {
       setLoading(false);
